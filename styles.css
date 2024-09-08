@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #7e7261;
+    padding: 10px;
+    display: flex;
+    height:12vh ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+    padding:8px ;
+    font-family: Papyrus, Lucida Handwriting, "Fredoka One", sans-serif ;
+    width: 16%;
+    text-shadow:
+     1px 1px 0px black,
+     -1px 1px 0px black,
+     1px -1px 0px black,
+     -1px -1px 0px black;
+}
+
+
+#nav-ul {
+    display: flex;
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav >ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding:12px ;
+    border: 1px solid rgb(61, 59, 59);
+    border-radius: 10%;
+    text-shadow:
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+
+
+}
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('img/img1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Ensures text is readable on top of the image */
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding as needed */
+    text-shadow:
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}
+
+.hero h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em; /* Adjust font size as needed */
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #ef3939; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em; /* Adjust button font size as needed */
+    text-shadow:
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+/* Menu Section */
+#menu {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+}
+
+.menu-item img {
+    width: 100%;  /* Ensures the image takes up full width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 5px; /* Optional: gives the image rounded corners */
+    margin-bottom: 15px; /* Adds space between the image and the heading */
+}
+
+
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #7e7261;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
