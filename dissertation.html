@@ -1,43 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
-    <img src="Title.jpg" alt="Dissertation Title Image" style="width:100%; border-radius:20px;">
-</header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sustainable Nutrition Recommendation System</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f4f7f5;
+            margin:0;
+            padding:0;
+            color:#1f2937;
+        }
+
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+        }
+
+        .hero-image{
+            width:100%;
+            border-radius:25px;
+            margin-top:20px;
+            box-shadow:0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        .content-section{
+            background:white;
+            margin-top:30px;
+            padding:40px;
+            border-radius:20px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        h1{
+            color:#0f172a;
+            font-size:42px;
+            margin-bottom:10px;
+        }
+
+        h2{
+            color:#059669;
+            margin-top:0;
+        }
+
+        p{
+            line-height:1.8;
+            font-size:18px;
+        }
+
+        .tech-list{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:15px;
+            margin-top:25px;
+        }
+
+        .tech-card{
+            background:#ecfdf5;
+            padding:20px;
+            border-radius:15px;
+            font-weight:bold;
+            text-align:center;
+            border:1px solid #a7f3d0;
+        }
+
+        .author-box{
+            margin-top:15px;
+            color:#4b5563;
+            font-size:17px;
+        }
+
+    </style>
+
+</head>
 
 <body>
 
-    <header>
-        <h1>Sustainable Nutrition Recommendation System</h1>
-        <p>BSc (Hons) Computing Dissertation Artefact – Arden University</p>
-        <p>Author: Inna Bains</p>
-    </header>
+    <div class="container">
 
-    <section>
-        <h2>Project Overview</h2>
+        <img src="Title.jpg" alt="Dissertation Title Image" class="hero-image">
 
-        <p>
-            This dissertation project presents the design and implementation of a
-            transparent rule-based sustainable meal-planning system for UK university students.
-        </p>
+        <div class="content-section">
 
-        <p>
-            The system integrates nutritional analysis, environmental sustainability
-            indicators and pantry-aware recommendation behaviour within a single
-            web-based decision-support framework.
-        </p>
-    </section>
+            <h1>Sustainable Nutrition Recommendation System</h1>
 
-    <section>
-        <h2>Technologies Used</h2>
+            <div class="author-box">
+                <p><strong>BSc (Hons) Computing Dissertation Artefact – Arden University</strong></p>
+                <p>Author: Inna Bains</p>
+            </div>
 
-        <ul>
-            <li>React.js Frontend</li>
-            <li>Spring Boot Backend</li>
-            <li>MySQL Database</li>
-            <li>Python Data Preprocessing</li>
-            <li>REST API Integration</li>
-        </ul>
-    </section>
+            <h2>Project Overview</h2>
+
+            <p>
+                This dissertation project presents the design and implementation
+                of a transparent rule-based sustainable meal-planning system for
+                UK university students.
+            </p>
+
+            <p>
+                The system integrates nutritional analysis, environmental
+                sustainability indicators and pantry-aware recommendation
+                behaviour within a single web-based decision-support framework.
+            </p>
+
+            <h2>Technologies Used</h2>
+
+            <div class="tech-list">
+
+                <div class="tech-card">React.js Frontend</div>
+
+                <div class="tech-card">Spring Boot Backend</div>
+
+                <div class="tech-card">MySQL Database</div>
+
+                <div class="tech-card">Python Data Preprocessing</div>
+
+                <div class="tech-card">REST API Integration</div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
+
 </html>
