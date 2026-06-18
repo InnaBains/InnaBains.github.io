@@ -74,18 +74,18 @@ The project demonstrates core front-end development concepts and user interface 
 
 ## 📂 Project Structure
 
-```text
 InnaBains.github.io
 │
 ├── index.html
 ├── styles.css
+├── README.md
 │
 └── img
+    ├── homepage.jpg
+    ├── img1.jpg
     ├── img2.jpg
     ├── img3.jpg
-    ├── img4.jpg
-    └── ...
-```
+    └── img4.jpg
 
 ---
 
@@ -102,21 +102,11 @@ This project helped develop practical skills in:
 - Website deployment using GitHub Pages
 
 ---
-
 ## 📸 Website Preview
 
-Add screenshots of:
+### Homepage
 
-- Homepage
-- About Section
-- Menu Section
-- Contact Section
-
-Example:
-
-```markdown
 ![Homepage](img/homepage.jpg)
-```
 
 ---
 
