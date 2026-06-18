@@ -115,7 +115,7 @@ Add screenshots of:
 Example:
 
 ```markdown
-![Homepage](img/homepage.png)
+![Homepage](img/img1.jpg)
 ```
 
 ---
