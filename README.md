@@ -72,20 +72,22 @@ The project demonstrates core front-end development concepts and user interface 
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-InnaBains.github.io
+```text
+InnaBains.github.io/
 │
 ├── index.html
 ├── styles.css
 ├── README.md
 │
-└── img
+└── img/
     ├── homepage.jpg
     ├── img1.jpg
     ├── img2.jpg
     ├── img3.jpg
     └── img4.jpg
+```
 
 ---
 
